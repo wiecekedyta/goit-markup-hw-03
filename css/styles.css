@@ -33,6 +33,11 @@ ul {
 .logo-bicolor {
   color: #000;
 }
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .nav-items {
   display: inline-block;
   list-style: none;
