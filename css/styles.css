@@ -44,6 +44,7 @@ ul {
 }
 .nav-links-list {
   display: flex;
+  align-items: center;
   padding: 0;
   margin-left: 93px;
 }
@@ -77,6 +78,11 @@ ul {
 }
 .link-color:hover {
   color: #2196f3;
+}
+.nav-contact-list {
+  display: flex;
+  gap: 50px;
+  align-items: center;
 }
 .contact-items {
   font-weight: 500;
