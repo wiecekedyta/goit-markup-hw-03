@@ -4,7 +4,7 @@
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -45,7 +45,7 @@
       <button class="header-button" type="button">Zamów usługę</button>
     </div>
     <!--nasze atuty-->
-    <div class="section-two">
+    <div class="section-two wrapper">
       <ul class="display-style">
         <li>
           <h3 class="header-three">Lorem ipsum</h3>
@@ -82,9 +82,9 @@
       </ul>
     </div>
     <!--czym sie zajmujemu-->
-    <section class="section-three">
+    <div>
       <h2 class="header-two">Czym się zajmujemy</h2>
-      <ul class="list-style display-style">
+      <ul class="pictures-list-items wrapper">
         <li>
           <img src="images/img.jpg" alt="Ręce na klawiaturze przed ekranem" width="370" height="294">
         </li>
@@ -95,49 +95,54 @@
           <img src="images/img-3.jpg" alt="tablet w ręku" width="370" height="294">
         </li>
       </ul>
-    </section>
+    </div>
     <!--nasz zespół-->
-    <section class="section-four">
+    <div class="our-team-box">
       <h2 class="header-two">Nasz zespół</h2>
-      <ul class="work-position display-style">
+      <ul class="work-position display-style wrapper">
         <li>
-          <figure>
+          <div class="team-figure-box">
             <img src="images/img-4.jpg" alt="portret john doe" width="270" height="260">
-            <h4 class="header-four">John Doe</h4> Product Designer
-          </figure>
+            <h4 class="header-four">John Doe</h4>
+            <p>Product Designer</p>
+          </div>
         </li>
         <li>
-          <figure>
+          <div class="team-figure-box">
             <img src="images/img-5.jpg" alt="portret john doe" width="270" height="260">
-            <h4 class="header-four">John Doe</h4> Frontend Developer
-          </figure>
+            <h4 class="header-four">John Doe</h4>
+            <p>Frontend Developer</p>
+          </div>
         </li>
         <li>
-          <figure>
+          <div class="team-figure-box">
             <img src="images/img-6.jpg" alt="portret john doe" width="270" height="260">
-            <h4 class="header-four">John Doe</h4> Marketing
-          </figure>
+            <h4 class="header-four">John Doe</h4>
+            <p>Marketing</p>
+          </div>
         </li>
         <li>
-          <figure>
+          <div class="team-figure-box">
             <img src="images/img-7.jpg" alt="portret john doe" width="270" height="260">
             <h4 class="header-four">John Doe</h4>
-            UI Designer
-          </figure>
+            <p>UI Designer</p>
+          </div>
         </li>
       </ul>
-    </section>
+    </div>
   </main>
   <footer>
-    <div class="footer-style">
-      <a class="logo" href="#">Web<span class="logo-bicolor">Studio</span></a>
-      <address class="address-items">
-        <ul class="list-style">
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a class="contact-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="contact-footer" href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
-      </address>
+    <div class="footer-box">
+      <div class="footer-style wrapper">
+        <a class="logo" href="#">Web<span class="logo-bicolor">Studio</span></a>
+        <address class="address-items">
+          <ul class="list-style">
+            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li><a class="contact-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contact-footer" href="tel:+48111111111">+48 111 111 111</a></li>
+          </ul>
+        </address>
+      </div>
     </div>
   </footer>
 </body>

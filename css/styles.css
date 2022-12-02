@@ -132,28 +132,32 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 
 /* section 2 nasze atuty */
 
 .section-two {
-  margin: 94px 200px;
-}
-.section-two li {
-  display: inline-block;
-  margin: 0px 15px;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 .header-three {
   font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .paragraph-lorem {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.display-style {
+  display: flex;
+  list-style: none;
+  gap: 30px;
 }
 
 /* section 3 czym sie zajmujemy */
@@ -163,13 +167,25 @@ ul {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
-.section-three {
-  display: inline;
+.pictures-list-items {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+.pictures-list-items li {
+  list-style: none;
+  width: 370px;
+  height: 294px;
 }
 
 /* section 4 nasz zespol */
 
+.our-team-box {
+  padding: 94px;
+  background: #f5f4fa;
+}
 .work-position {
   font-size: 16px;
   line-height: 19px;
@@ -178,15 +194,22 @@ ul {
   color: #757575;
   text-decoration: none;
 }
-.work-position li {
-  display: inline;
+.team-figure-box {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
+
 .header-four {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 /* section portfolio */
@@ -244,6 +267,9 @@ ul {
 
 /* footer */
 
+.address-items {
+  margin-top: 20px;
+}
 .address-items li {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -251,6 +277,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-bottom: 9px;
 }
 
 .contact-footer {
@@ -267,10 +294,8 @@ ul {
   color: #2196f3;
 }
 
-.display-style li {
-  display: inline-block;
-}
-.footer-style {
+.footer-box {
   background-color: #2f303a;
   height: 252px;
+  padding-top: 60px;
 }
