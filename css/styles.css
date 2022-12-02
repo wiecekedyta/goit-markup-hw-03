@@ -2,6 +2,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+
+/* nav */
+
 .header-links a {
   display: inline;
 }
@@ -22,6 +25,47 @@ body {
 .logo-bicolor {
   color: #000;
 }
+.nav-items {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+.list-style {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+}
+.list-style:hover {
+  color: #2196f3;
+}
+.link-color:link,
+.link-color:visited {
+  color: #212121;
+}
+.link-color:hover {
+  color: #2196f3;
+}
+.contact-items {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.contact-items:hover {
+  color: #2196f3;
+}
+.contact-items:focus {
+  color: #2196f3;
+}
+
+/* section 1 header */
+
 .section-one {
   height: 600px;
   background-color: #2f303a;
@@ -54,30 +98,64 @@ body {
   align-items: center;
   justify-content: center;
 }
-.nav-items {
-  display: inline-block;
-  list-style: none;
-  text-decoration: none;
+
+/* section 2 nasze atuty */
+
+.section-two {
+  margin: 94px 200px;
 }
-.list-style {
-  font-weight: 500;
-  font-size: 14px;
+.section-two li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+.header-three {
+  font-size: 16px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.paragraph-lorem {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* section 3 czym sie zajmujemy */
+
+.header-two {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-three {
+  display: inline;
+}
+
+/* section 4 nasz zespol */
+
+.work-position {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
   text-decoration: none;
-  display: inline-block;
-  list-style: none;
 }
-.list-style:hover {
-  color: #2196f3;
+.work-position li {
+  display: inline;
 }
-.link-color:link,
-.link-color:visited {
-  color: #212121;
+.header-four {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.link-color:hover {
-  color: #2196f3;
-}
+
+/* section portfolio */
+
 .button-style {
   background: #f5f4fa;
   border-radius: 4px;
@@ -112,52 +190,7 @@ body {
   list-style: none;
   align-items: center;
 }
-.section-two {
-  margin: 94px 200px;
-}
-.section-two li {
-  display: inline-block;
-  margin: 0px 15px;
-}
-.header-three {
-  font-size: 16px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.paragraph-lorem {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.header-two {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.section-three {
-  display: inline;
-}
-.work-position {
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
-  text-decoration: none;
-}
-.work-position li {
-  display: inline;
-}
-.header-four {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+
 .figure-description {
   font-size: 16px;
   line-height: 1.88;
@@ -173,6 +206,9 @@ body {
   letter-spacing: 0.06em;
   color: #212121;
 }
+
+/* footer */
+
 .address-items li {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -181,26 +217,14 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.contact-items {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-  text-decoration: none;
-}
+
 .contact-footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.contact-items:hover {
-  color: #2196f3;
-}
-.contact-items:focus {
-  color: #2196f3;
-}
+
 .contact-footer:hover {
   color: #2196f3;
 }
