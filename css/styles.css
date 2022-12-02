@@ -44,6 +44,11 @@ ul {
 }
 .nav-links-list {
   display: flex;
+  padding: 0;
+  margin-left: 93px;
+}
+.nav-links-list li {
+  margin: 0 23px;
 }
 .nav-links {
   display: flex;
