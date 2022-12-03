@@ -265,16 +265,22 @@ ul {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-.figure-description p {
-  margin-left: 24px;
-}
 .header-five {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  margin: 20px 24px 4px 24px;
+}
+.figure-description p {
+  font-weight: 400;
   margin-left: 24px;
-  margin-bottom: 4px;
+  margin-bottom: 20px;
+}
+.no-gap-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* footer */
