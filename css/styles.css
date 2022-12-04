@@ -17,6 +17,7 @@ ul {
 .conatiner {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 /* nav */
 
@@ -100,7 +101,7 @@ ul {
 /* section 1 header */
 
 .section-one {
-  height: 600px;
+  padding: 200px 0;
   background-color: #2f303a;
   text-align: center;
   align-items: center;
@@ -113,6 +114,7 @@ ul {
   font-weight: 900;
   line-height: 1.36;
   color: #fff;
+  letter-spacing: 0.06em;
 }
 .header-button {
   background: #2196f3;
@@ -317,6 +319,5 @@ ul {
 
 .footer-box {
   background-color: #2f303a;
-  height: 252px;
-  padding-top: 60px;
+  padding: 60px 0;
 }
