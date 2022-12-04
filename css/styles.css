@@ -259,9 +259,11 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  height: 402px;
-  width: 368px;
+  height: 404px;
+  width: 370px;
   color: #757575;
+}
+.figure-text-border {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
